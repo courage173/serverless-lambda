@@ -25,9 +25,10 @@ SNS_AWS_REGION=''
 
 To run the project locally you have to do the following:
 
-- Set the `DYNAMODB_LOCAL_STAGE` to dev e.g `DYNAMODB_LOCAL_STAGE=dev` to use the local DynamoDb is one is installed
+- Set the `DYNAMODB_LOCAL_STAGE` to dev e.g `DYNAMODB_LOCAL_STAGE=dev` to use the local DynamoDb if one is exist locally
 - If you are running a local dynamoDB ensure you set the `DYNAMODB_LOCAL_ENDPOINT` to point to your local dynamoDb
 - Set your mailgun signing key `MAIL_GUN_SIGNING_KEY` on the env file.
+- Ensure your SNS credentials are also set
 
 ```sh
 on project root directory run
