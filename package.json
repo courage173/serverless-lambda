@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "serverless offline start",
-    "deploy": "serverless deploy"
+    "deploy": "serverless deploy",
+    "build": "serverless package --package dist"
   },
   "engines": {
     "node": ">=14.15.0"

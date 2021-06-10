@@ -14,5 +14,5 @@ jspm_packages
 .env
 .dynamodb
 .DS_Store
-
+dist
 yarn-error.log
