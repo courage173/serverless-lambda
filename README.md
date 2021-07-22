@@ -1,4 +1,4 @@
-### RECEEVE TEST
+### AWS Serverless lambda function
 
 This project is an AWS Lambda function that receives request from Mailgun, verifies that it is from Mailgun and then publishes a transformed version to AWS SNS while also saving a copy to AWS DynamoDb.
 
